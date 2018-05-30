@@ -1,177 +1,227 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-        <meta name="robots" CONTENT="NOINDEX">
+layout: home
+---
 
-        <title>James Grant</title>
+<div class="container intro-container">
+    <h3>About Me</h3>
+    <div class="row clearfix">
+        <div class="col-xs-12 col-sm-4 col-md-3">
+            <span class="jg-img"></span>
+        </div>
+        <div class="col-xs-12 col-sm-8 col-md-9">
+            <p>Hi, my name is James Grant. I'm a full stack web and mobile app developer with 4 years experience based in the
+                west country. I am currently working for Simitive where I have been building our SAS products with a
+                <kbd>Symfony</kbd> API and a <kbd>VueJS</kbd> front-end. We are also utilising<kbd>Elasticsearch</kbd>, CI, and AWS products.</p>
 
-        <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,500,500italic,400italic,300italic,100italic,700italic' rel='stylesheet' type='text/css'>
+            <p>I like making clean and interactive UI that is quick and easy to use whilst also giving users an enjoyable experience.
+                I have worked with a range of different languages and frameworks and I am always looking for opportunities
+                to work with something new. The things that I have the most experience working with are:</p>
+            <p><kbd>PHP</kbd>, <kbd>MySQL</kbd>, <kbd>Symfony</kbd>, <kbd>VueJs</kbd>, <kbd>Elasticsearch</kbd>, <kbd>Backbone</kbd>, <kbd>Android</kbd>,
+                 <kbd>iOS</kbd>, <kbd>Shibboleth</kbd>, <kbd>AD FS</kbd>, <kbd>SASS</kbd>, <kbd>JS</kbd>, <kbd>Angular</kbd>, <kbd>git</kbd>, <kbd>Gulp</kbd>
+                 and <kbd>AWS</kbd> services.</p>
+        </div>
+    </div>
+</div>
 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-
-        <link rel="stylesheet" href="/jamesgrant.css">
-
-        <link rel="shortcut icon" href="http://jwgmedia.co.uk/sites/default/files/JWGMediaICON.ico" type="image/vnd.microsoft.icon" />
-
-    </head>
-    <body>
-
-    <div class="container header-contianer">
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-8 header-left">
-                <h1>James Grant</h1>
-                <h2>Full Stack &amp; Mobile Developer</h2>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 header-right">
-                <ul class="icons">
-                    <li><a target="_blank" href="http://jwgmedia.co.uk" class="button button--sacnite button--round-l"><i class="fa fa-globe"></i></a></li>
-                    <li><a target="_blank" href="https://twitter.com/sproogen" class="button button--sacnite button--round-l"><i class="fa fa-twitter"></i></a></li>
-                    <li><a target="_blank" href="https://github.com/sproogen" class="button button--sacnite button--round-l"><i class="fa fa-github"></i></a></li>
-                    <li><a target="_blank" href="https://uk.linkedin.com/in/jameswgrant" class="button button--sacnite button--round-l"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-                <p>Email: <a href="mailto:james@jwgmedia.co.uk" target="_blank">james@jwgmedia.co.uk</a></p>
-                <p>Phone: <a href="tel:07944652549" target="_blank">07944652549</a></p>
-                <p>Web: <a href="http://www.jwgmedia.co.uk" target="_blank">www.jwgmedia.co.uk</a></p>
-            </div>
+<div class="container projects-container">
+    <h3>Projects</h3>
+    <div class="row clearfix">
+        <div class="col-xs-12 col-sm-4 col-md-3 left-column">
+            <h4>Forecastr</h4>
+            <a href="http://forecastr.co.uk/" target="_blank">forecastr.co.uk</a>
+            </br>
+            </br>
+            <a href="https://github.com/sproogen/ForecastrApp" target="_blank">
+                <i class="fa fa-github"></i>
+            </a>
+        </div>
+        <div class="col-xs-12 col-sm-8 col-md-9">
+            <p class="quote">Forecastr is an android app designed to make it easy to view the forecast at your favourite spots. Targeted at
+                sports where the weather is key to a good session forecastr makes it quick to see which spot is best all
+                on one screen. Forecastr includes wind, weather, swell and tide times.</p>
+            <p>Forecastr is an app I have been building as I have a keen interest in
+                <kbd>Android</kbd> development and wanted a personal project I could use to help build my skills. I chose to build
+                this app as I felt like it's something I would use myself and also something that would set some good challenges
+                across lots of different areas of the build.</p>
+            <p>During the build I have utilised a number of different android libraries such as ActionBarSherlock, Dagger and
+                Otto. As well as these the app also talks to a backend API and uses a SQLite DB.</p>
         </div>
     </div>
 
-    <div class="container intro-container">
-        <h3>About Me</h3>
-        <div class="row clearfix">
-            <div class="col-xs-12 col-sm-4 col-md-3">
-                <span class="jg-img"></span>
-            </div>
-            <div class="col-xs-12 col-sm-8 col-md-9">
-                <p>Hi, my name is James Grant. I'm a full stack web and mobile app developer with 4 years experience based in the west country. I am currently working for Simitive where I have been building our SAS products with a <kbd>Symfony</kbd> API and a <kbd>VueJS</kbd> front-end. We are also utilising <kbd>Elasticsearch</kbd>, CI, and AWS products.</p>
+    <div class="row clearfix project-2">
+        <div class="col-xs-12 col-sm-4 col-md-3 left-column">
+            <h4>itsgoingto.be</h4>
+            <a href="http://www.itsgoingto.be/" target="_blank">itsgoingto.be</a>
+            </br>
+            </br>
+            <a href="https://github.com/sproogen/itsgoingto.be" target="_blank">
+                <i class="fa fa-github"></i>
+            </a>
+        </div>
+        <div class="col-xs-12 col-sm-8 col-md-9">
+            <p class="quote">itsgoingto.be is a simple voting site where a user can ask a question or topic top put to a vote. This question
+                can then be shared with their friends/colleagues to vote on things like 'Where should we go for lunch?'.</p>
+            <p>The backend for this site has been build using
+                <kbd>Symfony</kbd> while on the front-end I have used
+                <kbd>SASS</kbd>, Bourbon.io, Neat and
+                <kbd>JQuery</kbd>. The front-end assets are being compiled and minified using
+                <kbd>Gulp</kbd> so this can be easily auto-deployed on
+                <kbd>Heroku</kbd>
+            </p>
+            <p>I have really enjoyed working on this project as I have been able to create a really nice codebase that is fun
+                to work with, and also play with some new components that I wouldn't usually have the time to work with.</p>
+        </div>
+    </div>
+</div>
 
-                <p>I like making clean and interactive UI that is quick and easy to use whilst also giving users an enjoyable experience. I have worked with a range of different languages and frameworks and I am always looking for opportunities to work with something new. The things that I have the most experience working with are:</p>
-                <p><kbd>PHP</kbd>, <kbd>MySQL</kbd>, <kbd>Symfony</kbd>, <kbd>VueJs</kbd>, <kbd>Elasticsearch</kbd>, <kbd>Backbone</kbd>, <kbd>Android</kbd>, <kbd>iOS</kbd>, <kbd>Shibboleth</kbd>, <kbd>AD FS</kbd>, <kbd>SASS</kbd>, <kbd>JS</kbd>, <kbd>Angular</kbd>, <kbd>git</kbd>, <kbd>Gulp</kbd> and <kbd>AWS</kbd> services.</p>
-            </div>
+<div class="container work-container">
+    <h3>Experience</h3>
+
+    <div class="row clearfix">
+        <div class="col-xs-12 col-sm-4 col-md-3 left-column">
+            <h4>Simitive</h4>
+            <a href="http://www.simitive.com/" target="_blank">www.simitive.com</a>
+            <p>November 2015 - Present</p>
+            <p>
+                <b>Developer</b>
+            </p>
+        </div>
+        <div class="col-xs-12 col-sm-8 col-md-9">
+            <p>I have been working as part of an agile team building our own in house web based software and also a large scale
+                website for an international client. I have been gaining experience working with continuous integration workflow
+                using tools such as
+                <kbd>Jenkins</kbd>, working with Amazon Web Services and building software using
+                <kbd>Symfony</kbd>,
+                <kbd>Backbone</kbd>,
+                <kbd>Marionette</kbd>,
+                <kbd>Vue</kbd> and
+                <kbd>Vuex</kbd>.</p>
+            <p>For 6 months I was working on delivering a standalone web product for an international client that services over
+                600,000 users. This has been built from the ground up using
+                <kbd>Symfony</kbd> to provide a backend API and Backbone for the front end. I also gained a lot of experience
+                with
+                <kbd>Elasticsearch</kbd> to provide search functionality of millions of entities to the front end. During the
+                project I spent time out of hours communicating with the client, performing deployments and providing support.</p>
+            <p>I am currently working in a team of 4 working on building internal web software this time using
+                <kbd>Vue</kbd> and
+                <kbd>Vuex</kbd> for the front end application. I am constantly providing input into the projects from a functionality
+                and technical side which I feel makes me a very valuable asset to the team.</p>
+            <p>More recently I have been assisting with the company's devOps, this includes managing our
+                <kbd>AWS</kbd> infrastructure as well as deploying and migrating sites. I am also configuring and maintaining
+                our clients SSO, this mostly involves configuring new clients who are using
+                <kbd>AD FS</kbd>,
+                <kbd>Shibboleth</kbd> and
+                <kbd>CAS</kbd> but also maintaining our software's SSO functionality.</p>
         </div>
     </div>
 
-    <div class="container projects-container">
-        <h3>Projects</h3>
-        <div class="row clearfix">
-            <div class="col-xs-12 col-sm-4 col-md-3 left-column">
-                <h4>Forecastr</h4>
-                <a href="http://forecastr.co.uk/" target="_blank">forecastr.co.uk</a>
-                </br></br>
-                <a href="https://github.com/sproogen/ForecastrApp" target="_blank"><i class="fa fa-github"></i></a>
-            </div>
-            <div class="col-xs-12 col-sm-8 col-md-9">
-                <p class="quote">Forecastr is an android app designed to make it easy to view the forecast at your favourite spots. Targeted at sports where the weather is key to a good session forecastr makes it quick to see which spot is best all on one screen. Forecastr includes wind, weather, swell and tide times.</p>
-                <p>Forecastr is an app I have been building as I have a keen interest in <kbd>Android</kbd> development and wanted a personal project I could use to help build my skills. I chose to build this app as I felt like it's something I would use myself and also something that would set some good challenges across lots of different areas of the build.</p>
-                <p>During the build I have utilised a number of different android libraries such as ActionBarSherlock, Dagger and Otto. As well as these the app also talks to a backend API and uses a SQLite DB.</p>
-            </div>
+    <div class="row clearfix project-2">
+        <div class="col-xs-12 col-sm-4 col-md-3 left-column">
+            <h4>Freelance</h4>
+            <p>September 2016 - October 2016</p>
+            <p>
+                <b>Android Development</b>
+            </p>
         </div>
-
-        <div class="row clearfix project-2">
-            <div class="col-xs-12 col-sm-4 col-md-3 left-column">
-                <h4>itsgoingto.be</h4>
-                <a href="http://www.itsgoingto.be/" target="_blank">itsgoingto.be</a>
-                </br></br>
-                <a href="https://github.com/sproogen/itsgoingto.be" target="_blank"><i class="fa fa-github"></i></a>
-            </div>
-            <div class="col-xs-12 col-sm-8 col-md-9">
-                <p class="quote">itsgoingto.be is a simple voting site where a user can ask a question or topic top put to a vote. This question can then be shared with their friends/colleagues to vote on things like 'Where should we go for lunch?'.</p>
-                <p>The backend for this site has been build using <kbd>Symfony</kbd> while on the front-end I have used <kbd>SASS</kbd>, Bourbon.io, Neat and <kbd>JQuery</kbd>. The front-end assets are being compiled and minified using <kbd>Gulp</kbd> so this can be easily auto-deployed on <kbd>Heroku</kbd></p>
-                <p>I have really enjoyed working on this project as I have been able to create a really nice codebase that is fun to work with, and also play with some new components that I wouldn't usually have the time to work with.</p>
-            </div>
+        <div class="col-xs-12 col-sm-8 col-md-9">
+            <p>I was asked to update an existing Android app to the latest version of Android and to fix any issues caused by
+                this as well as a few other existing issues. This project had a very tight time scale and I was able to complete
+                it in very good time while providing regular updates to the client.</p>
         </div>
     </div>
 
-    <div class="container work-container">
-        <h3>Experience</h3>
-
-        <div class="row clearfix">
-            <div class="col-xs-12 col-sm-4 col-md-3 left-column">
-                <h4>Simitive</h4>
-                <a href="http://www.simitive.com/" target="_blank">www.simitive.com</a>
-                <p>November 2015 - Present</p>
-                <p><b>Developer</b></p>
-            </div>
-            <div class="col-xs-12 col-sm-8 col-md-9">
-                <p>I have been working as part of an agile team building our own in house web based software and also a large scale website for an international client. I have been gaining experience working with continuous integration workflow using tools such as <kbd>Jenkins</kbd>, working with Amazon Web Services and building software using <kbd>Symfony</kbd>, <kbd>Backbone</kbd>, <kbd>Marionette</kbd>, <kbd>Vue</kbd> and <kbd>Vuex</kbd>.</p>
-                <p>For 6 months I was working on delivering a standalone web product for an international client that services over 600,000 users. This has been built from the ground up using <kbd>Symfony</kbd> to provide a backend API and Backbone for the front end. I also gained a lot of experience with <kbd>Elasticsearch</kbd> to provide search functionality of millions of entities to the front end. During the project I spent time out of hours communicating with the client, performing deployments and providing support.</p>
-                <p>I am currently working in a team of 4 working on building internal web software this time using <kbd>Vue</kbd> and <kbd>Vuex</kbd> for the front end application. I am constantly providing input into the projects from a functionality and technical side which I feel makes me a very valuable asset to the team.</p>
-                <p>More recently I have been assisting with the company's devOps, this includes managing our <kbd>AWS</kbd> infrastructure as well as deploying and migrating sites. I am also configuring and maintaining our clients SSO, this mostly involves configuring new clients who are using <kbd>AD FS</kbd>, <kbd>Shibboleth</kbd> and <kbd>CAS</kbd> but also maintaining our software's SSO functionality.</p>
-            </div>
+    <div class="row clearfix project-2">
+        <div class="col-xs-12 col-sm-4 col-md-3 left-column">
+            <h4>Nudge Digital</h4>
+            <a href="http://www.nudgedigital.co.uk/" target="_blank">www.nudgedigital.co.uk</a>
+            <p>August 2014 - November 2015</p>
+            <p>
+                <b>Developer</b>
+            </p>
         </div>
-
-        <div class="row clearfix project-2">
-            <div class="col-xs-12 col-sm-4 col-md-3 left-column">
-                <h4>Freelance</h4>
-                <p>September 2016 - October 2016</p>
-                <p><b>Android Development</b></p>
-            </div>
-            <div class="col-xs-12 col-sm-8 col-md-9">
-                <p>I was asked to update an existing Android app to the latest version of Android and to fix any issues caused by this as well as a few other existing issues. This project had a very tight time scale and I was able to complete it in very good time while providing regular updates to the client.</p>
-            </div>
-        </div>
-
-        <div class="row clearfix project-2">
-            <div class="col-xs-12 col-sm-4 col-md-3 left-column">
-                <h4>Nudge Digital</h4>
-                <a href="http://www.nudgedigital.co.uk/" target="_blank">www.nudgedigital.co.uk</a>
-                <p>August 2014 - November 2015</p>
-                <p><b>Developer</b></p>
-            </div>
-            <div class="col-xs-12 col-sm-8 col-md-9">
-                <p>While working at nudge I was able to work on a large number of projects ranging from small Drupal sites to large enterprise level applications. I enjoy being able to work with clients to understand and surpass their expectations. At Nudge I was also given the oppertunity to work with all of my core skills and to gain new skills in things such as <kbd>Symfony</kbd>, <kbd>Angular</kbd> and <kbd>Gulp</kbd>. I also worked on a number of <kbd>iOS</kbd> and <kbd>Android</kbd> applications.</p>
-                <p>During my time at Nudge I was able to help the lead developer with the writing of Technical Specifications and also Project Requirements. I feel this is a useful skill to have as it helps me to become an even more well-rounded developer.</p>
-                <p>During the summer I had the opportunity to head to Accra, Ghana and work with the team out there. This was a great opportunity to learn more about the industry in another country but also to allow me to lead their team for a few weeks and gain lots of experience of remote teams.</p>
-            </div>
-        </div>
-
-        <div class="row clearfix project-2">
-            <div class="col-xs-12 col-sm-4 col-md-3 left-column">
-                <h4>GWS Media</h4>
-                <a href="http://www.gwsmedia.com/" target="_blank">www.gwsmedia.com/</a>
-                <p>June 2012 - August 2014</p>
-                <p><b>Programmer</b></p>
-            </div>
-            <div class="col-xs-12 col-sm-8 col-md-9">
-                <p>I started working for GWS Media part time during my third year at University and continued full time once I had graduated. It was during this role that I learnt many of the fundamentals that I have been building on over the past 3 years. Whilst at GWS I had the opportunity to work with: <kbd>Drupal</kbd>, <kbd>Magento</kbd>, <kbd>Bootstrap</kbd>, <kbd>Codeigniter</kbd>, <kbd>Android</kbd> and <kbd>iOS</kbd>.</p>
-                <p>I feel like having the opportunity to use a large range of different things early on in my career has given me the drive to always want to try new tools and frameworks.</p>
-            </div>
+        <div class="col-xs-12 col-sm-8 col-md-9">
+            <p>While working at nudge I was able to work on a large number of projects ranging from small Drupal sites to large
+                enterprise level applications. I enjoy being able to work with clients to understand and surpass their expectations.
+                At Nudge I was also given the oppertunity to work with all of my core skills and to gain new skills in things
+                such as
+                <kbd>Symfony</kbd>,
+                <kbd>Angular</kbd> and
+                <kbd>Gulp</kbd>. I also worked on a number of
+                <kbd>iOS</kbd> and
+                <kbd>Android</kbd> applications.</p>
+            <p>During my time at Nudge I was able to help the lead developer with the writing of Technical Specifications and
+                also Project Requirements. I feel this is a useful skill to have as it helps me to become an even more well-rounded
+                developer.</p>
+            <p>During the summer I had the opportunity to head to Accra, Ghana and work with the team out there. This was a
+                great opportunity to learn more about the industry in another country but also to allow me to lead their
+                team for a few weeks and gain lots of experience of remote teams.</p>
         </div>
     </div>
 
-    <div class="container education-container">
-        <h3>Education</h3>
-        <div class="row clearfix">
-            <div class="col-xs-12 col-sm-4 col-md-3 left-column">
-                <h4>Bristol University</h4>
-                <p>2010 - 2013</p>
-                <p><b>BSc Computer Science</b></p>
-            </div>
-            <div class="col-xs-12 col-sm-8 col-md-9">
-                <p>During my degree at Bristol University I learnt lots of key skill such as team work and project management. Although we mainly focused on software development and the principles of programming I use a lot of these skills to my advantage in my day to day work.</p>
-                <p>While at Bristol Uni I spent a lot of my free time with the Kitesurfing society. I spent 3 years on the committee as a secretary, trip rep and then media and promotions manager. During this time I took on roles from organising transport and designing posters to organising a trip to Portugal for over 30 students.</p>
-            </div>
+    <div class="row clearfix project-2">
+        <div class="col-xs-12 col-sm-4 col-md-3 left-column">
+            <h4>GWS Media</h4>
+            <a href="http://www.gwsmedia.com/" target="_blank">www.gwsmedia.com/</a>
+            <p>June 2012 - August 2014</p>
+            <p>
+                <b>Programmer</b>
+            </p>
+        </div>
+        <div class="col-xs-12 col-sm-8 col-md-9">
+            <p>I started working for GWS Media part time during my third year at University and continued full time once I had
+                graduated. It was during this role that I learnt many of the fundamentals that I have been building on over
+                the past 3 years. Whilst at GWS I had the opportunity to work with:
+                <kbd>Drupal</kbd>,
+                <kbd>Magento</kbd>,
+                <kbd>Bootstrap</kbd>,
+                <kbd>Codeigniter</kbd>,
+                <kbd>Android</kbd> and
+                <kbd>iOS</kbd>.</p>
+            <p>I feel like having the opportunity to use a large range of different things early on in my career has given me
+                the drive to always want to try new tools and frameworks.</p>
         </div>
     </div>
+</div>
 
-    <div class="container more-container">
-        <h3>When I'm not programming</h3>
-        <div class="row clearfix">
-            <div class="col-md-12">
-                <p>When I'm not sat at my desk I am very active and spend most of my time outdoors. I do a lot a sports such as mountain biking, road cycling, kitesuring and landboarding as well as trying to make time for things like rock climbing and playing some rugby. Since my time at Uni I have become a very keen Kitesurfer and freestyle Landboarder. In 2014 I competed and won the amateur landboard British powerkite tour.</p>
-                <p>I am very interested in photography and videography as I like to be creative. This is mainly through sport but I enjoy landscape and abstract photography too. I like to showcase my work on my website and instagram if you would like to take a look - <a href="http://jwgmedia.co.uk/" target="_blank">jwgmedia.co.uk</a> / <a href="https://www.instagram.com/jameswgrant/" target="_blank">jameswgrant</a>.</p>
-                <p>Finally during the rest of my free time you will either find me working on my bikes, rock climbing at one of Bristol's indoor climbing centres or down the Rec supporting Bath Rugby.</p>
-            </div>
+<div class="container education-container">
+    <h3>Education</h3>
+    <div class="row clearfix">
+        <div class="col-xs-12 col-sm-4 col-md-3 left-column">
+            <h4>Bristol University</h4>
+            <p>2010 - 2013</p>
+            <p>
+                <b>BSc Computer Science</b>
+            </p>
+        </div>
+        <div class="col-xs-12 col-sm-8 col-md-9">
+            <p>During my degree at Bristol University I learnt lots of key skill such as team work and project management. Although
+                we mainly focused on software development and the principles of programming I use a lot of these skills to
+                my advantage in my day to day work.</p>
+            <p>While at Bristol Uni I spent a lot of my free time with the Kitesurfing society. I spent 3 years on the committee
+                as a secretary, trip rep and then media and promotions manager. During this time I took on roles from organising
+                transport and designing posters to organising a trip to Portugal for over 30 students.</p>
         </div>
     </div>
+</div>
 
-    <div class="container footer-container">
-        <p>James Grant - <a href="mailto:james@jwgmedia.co.uk" target="_blank">james@jwgmedia.co.uk</a> - <a href="tel:07944652549" target="_blank">07944652549</a> - References on request</p>
+<div class="container more-container">
+    <h3>When I'm not programming</h3>
+    <div class="row clearfix">
+        <div class="col-md-12">
+            <p>When I'm not sat at my desk I am very active and spend most of my time outdoors. I do a lot a sports such as
+                mountain biking, road cycling, kitesuring and landboarding as well as trying to make time for things like
+                rock climbing and playing some rugby. Since my time at Uni I have become a very keen Kitesurfer and freestyle
+                Landboarder. In 2014 I competed and won the amateur landboard British powerkite tour.</p>
+            <p>I am very interested in photography and videography as I like to be creative. This is mainly through sport but
+                I enjoy landscape and abstract photography too. I like to showcase my work on my website and instagram if
+                you would like to take a look -
+                <a href="http://jwgmedia.co.uk/" target="_blank">jwgmedia.co.uk</a> /
+                <a href="https://www.instagram.com/jameswgrant/" target="_blank">jameswgrant</a>.</p>
+            <p>Finally during the rest of my free time you will either find me working on my bikes, rock climbing at one of
+                Bristol's indoor climbing centres or down the Rec supporting Bath Rugby.</p>
+        </div>
     </div>
-
-</body>
-</html>
+</div>
