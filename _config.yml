@@ -24,6 +24,7 @@ markdown: kramdown
 theme: minima
 
 sass:
+  sass_dir: _scss
   style: compressed
 
 # Exclude from processing.
