@@ -16,12 +16,15 @@
 title: James Grant
 email: james@jwgmedia.co.uk
 description: Full stack & mobile developer
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: /jameswgrant/
+url: http://sproogen.github.io/jameswgrant/
 
 # Build settings
 markdown: kramdown
 theme: minima
+
+sass:
+  style: compressed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
