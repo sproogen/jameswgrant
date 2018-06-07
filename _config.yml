@@ -1,40 +1,72 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: James Grant
+# Personal info
+name: James Grant
+title: Full Stack & Mobile Developer
 email: james@jwgmedia.co.uk
-description: Full stack & mobile developer
-baseurl: /jameswgrant/
-url: http://sproogen.github.io
+website: www.jwgmedia.co.uk
+
+favicon: images/favicon.ico
+
+# Social links
+twitter_username: sproogen
+github_username:  sproogen
+# dribbble_username:
+# facebook_username:
+# flickr_username:
+instagram_username: jameswgrant
+linkedin_username: jameswgrant
+# pinterest_username:
+# youtube_username:
+# googleplus_username:
+
+# About Section
+# about_title: About Me
+about_profile_image: images/jg.jpg
+about_content: > # this means to ignore newlines until the next config item.
+  Hi, my name is James Grant, I'm a full stack web and mobile app developer with 5+ years experience based in the South West.
+  I am currently working for the Royal Bank of Scotland as a frontend software engineer on a comercial banking platform.
+  <br><br>
+  I enjoy making clean and interactive UI that is quick and easy to use whilst also giving users an enjoyable experience.
+  I have worked with a range of different languages and frameworks and I am always looking for opportunities to work
+  with something new. The things that I currently have the most experience working with are:
+  <br>
+  <mark>PHP</mark>,
+  <mark>ES6 Javascript</mark>,
+  <mark>Java</mark>,
+  <mark>MySQL</mark>,
+  <mark>React &amp; Redux</mark>,
+  <mark>Symfony</mark>,
+  <mark>Android</mark>,
+  <mark>SASS</mark>,
+  <mark>git</mark> and
+  <mark>AWS</mark> services.
+
+# Projects Section
+# projects_title: Projects
+
+# Experience Section
+# experience_title: Experience
+
+# Education Section
+# educaton_title: Education
+
+# More Section
+more_title: When I'm Not Programming
+more_content: > # this means to ignore newlines until the next config item.
+  When I'm not sat at my desk I am very active and spend most of my time outdoors. I do a lot a sports such as
+  mountain biking, road cycling, kitesuring and landboarding as well as trying to make time for things like
+  rock climbing and playing some rugby. Since my time at Uni I have become a very keen Kitesurfer and freestyle
+  Landboarder. In 2014 I competed and won the amateur landboard British powerkite tour.
+  <br><br>
+  I am very interested in photography and videography as I like to be creative. This is mainly through sport but
+  I enjoy landscape and abstract photography too. I like to showcase my work on my website and instagram if
+  you would like to take a look -
+  [jwgmedia.co.uk](http://jwgmedia.co.uk/) / [jameswgrant](https://www.instagram.com/jameswgrant/).
+  <br><br>
+  Finally during the rest of my free time you will either find me working on my bikes, rock climbing at one of
+  Bristol's indoor climbing centres or down the Rec supporting Bath Rugby.
+
+# Footer
+footer_show_references: true
 
 # Build settings
-markdown: kramdown
-theme: minima
-
-sass:
-  sass_dir: _scss
-  style: compressed
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+theme: resume-theme
