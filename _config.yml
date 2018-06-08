@@ -4,6 +4,8 @@ title: Full Stack & Mobile Developer
 email: james@jwgmedia.co.uk
 website: www.jwgmedia.co.uk
 
+repository: sproogen/jameswgrant
+
 favicon: images/favicon.ico
 
 # Social links
@@ -69,4 +71,7 @@ more_content: > # this means to ignore newlines until the next config item.
 footer_show_references: true
 
 # Build settings
-theme: resume-theme
+remote_theme: sproogen/resume-theme
+
+# sass:
+#   style: compressed
