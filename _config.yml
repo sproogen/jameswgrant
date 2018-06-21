@@ -23,14 +23,13 @@ linkedin_username: jameswgrant
 # About Section
 # about_title: About Me
 about_profile_image: images/jg.jpg
-about_content: > # this means to ignore newlines until the next config item.
+about_content: |
   Hi, my name is James Grant, I'm a full stack web and mobile app developer with 5+ years experience based in the South West.
   I am currently working for the Royal Bank of Scotland as a frontend software engineer on a comercial banking platform.
-  <br><br>
+
   I enjoy making clean and interactive UI that is quick and easy to use whilst also giving users an enjoyable experience.
   I have worked with a range of different languages and frameworks and I am always looking for opportunities to work
   with something new. The things that I currently have the most experience working with are:
-  <br>
   <mark>PHP</mark>,
   <mark>ES6 Javascript</mark>,
   <mark>Java</mark>,
@@ -53,17 +52,17 @@ about_content: > # this means to ignore newlines until the next config item.
 
 # More Section
 more_title: When I'm Not Programming
-more_content: > # this means to ignore newlines until the next config item.
+more_content: |
   When I'm not sat at my desk I am very active and spend most of my time outdoors. I do a lot a sports such as
   mountain biking, road cycling, kitesuring and landboarding as well as trying to make time for things like
   rock climbing and playing some rugby. Since my time at Uni I have become a very keen Kitesurfer and freestyle
   Landboarder. In 2014 I competed and won the amateur landboard British powerkite tour.
-  <br><br>
+
   I am very interested in photography and videography as I like to be creative. This is mainly through sport but
   I enjoy landscape and abstract photography too. I like to showcase my work on my website and instagram if
   you would like to take a look -
   [jwgmedia.co.uk](http://jwgmedia.co.uk/) / [jameswgrant](https://www.instagram.com/jameswgrant/).
-  <br><br>
+
   Finally during the rest of my free time you will either find me working on my bikes, rock climbing at one of
   Bristol's indoor climbing centres or down the Rec supporting Bath Rugby.
 
