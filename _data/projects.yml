@@ -14,6 +14,16 @@
     <br><br>
     Feel free to check out the whole project on Github to get a feel for how I work [here](https://github.com/sproogen/itsgoingto.be).
 
+- name: Mordern Resume Theme
+  link: sproogen.github.io/modern-resume-theme
+  github: sproogen/modern-resume-theme
+  quote: >
+    A modern simple static resume template and theme. Powered by Jekyll and GitHub pages.
+  description: >
+    This is a <mark>Jekyll</mark> theme that I have recently created, in fact it is what this resume has been built with.
+    I decided I wanted to learn how to create a fully open source project and thought that this would be the perfect project to do this with.
+    It has allowed me to share something I have created in a way that will be helpful for lots of people while also learning from this myself.
+
 - name: Forecastr
   link: www.forecastr.co.uk
   github: sproogen/ForecastrApp
