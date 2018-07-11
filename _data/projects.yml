@@ -24,18 +24,18 @@
     I decided I wanted to learn how to create a fully open source project and thought that this would be the perfect project to do this with.
     It has allowed me to share something I have created in a way that will be helpful for lots of people while also learning from this myself.
 
-- name: Forecastr
-  link: www.forecastr.co.uk
-  github: sproogen/ForecastrApp
-  quote: >
-    Forecastr is an android app designed to make it easy to view the forecast at your favourite spots. Targeted at
-    sports where the weather is key to a good session forecastr makes it quick to see which spot is best all
-    on one screen. Forecastr includes wind, weather, swell and tide times.
-  description: |
-    Forecastr is an app I have been building as I have a keen interest in
-    <mark>Android</mark> development and wanted a personal project I could use to help build my skills. I chose to build
-    this app as I felt like it's something I would use myself and also something that would set some good challenges
-    across lots of different areas of the build.
+# - name: Forecastr
+#   link: www.forecastr.co.uk
+#   github: sproogen/ForecastrApp
+#   quote: >
+#     Forecastr is an android app designed to make it easy to view the forecast at your favourite spots. Targeted at
+#     sports where the weather is key to a good session forecastr makes it quick to see which spot is best all
+#     on one screen. Forecastr includes wind, weather, swell and tide times.
+#   description: |
+#     Forecastr is an app I have been building as I have a keen interest in
+#     <mark>Android</mark> development and wanted a personal project I could use to help build my skills. I chose to build
+#     this app as I felt like it's something I would use myself and also something that would set some good challenges
+#     across lots of different areas of the build.
 
-    During the build I have utilised a number of different android libraries such as ActionBarSherlock, Dagger and
-    Otto. As well as these the app also talks to a backend API and uses a SQLite DB.
+#     During the build I have utilised a number of different android libraries such as ActionBarSherlock, Dagger and
+#     Otto. As well as these the app also talks to a backend API and uses a SQLite DB.
