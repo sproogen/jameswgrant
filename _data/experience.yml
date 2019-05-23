@@ -14,7 +14,8 @@
     in the office. I am always looking to suggest improvements and challenge what and how we are working to make sure we are delivering the best service
     to the customers while also developing to the highest standards.
 
-- company: Simitive
+- layout: right
+  company: Simitive
   link: www.simitive.com
   dates: November 2015 - August 2017
   job_title: Developer
@@ -43,7 +44,8 @@
     this as well as a few other existing issues. This project had a very tight time scale and I was able to complete
     it in very good time while providing regular updates to the client.
 
-- company: Nudge Digital
+- layout: right
+  company: Nudge Digital
   link: www.nudgedigital.co.uk
   dates: August 2014 - November 2015
   job_title: Developer
