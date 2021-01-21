@@ -2,11 +2,12 @@
 repository: sproogen/jameswgrant
 favicon: images/favicon.ico
 
+version: 1
+
 # Personal info
 name: James Grant
-title: Full Stack & Mobile Developer
-email: james@jwgmedia.co.uk
-website: www.jwgmedia.co.uk
+title: Full Stack Web Developer
+email: james@jameswgrant.co.uk
 
 # Social links
 twitter_username: sproogen
@@ -24,19 +25,19 @@ linkedin_username: jameswgrant
 # about_title: About Me
 about_profile_image: images/jg.jpg
 about_content: |
-  Hi, my name is James Grant, I'm a full stack web and mobile app developer with over 6 years experience, based in the South West.
-  I am currently working for the Royal Bank of Scotland as a frontend software engineer on a comercial banking platform.
+  Hi, my name is James Grant, I'm a full stack web developer with over 8 years experience currently specialising in React development.
+  I am currently working for NatWest as a frontend software engineer on their comercial banking platform, Bankline.
 
   I enjoy making clean and interactive UI that is quick and easy to use whilst also giving users an enjoyable experience.
   I have worked with a range of different languages and frameworks and I am always looking for opportunities to work
   with something new. The things that I currently have the most experience working with are:
   <mark>ES6 Javascript</mark>,
   <mark>React &amp; Redux</mark>,
+  <mark>Node.js</mark>,
   <mark>Java</mark>,
   <mark>PHP</mark>,
   <mark>MySQL</mark>,
   <mark>Symfony</mark>,
-  <mark>Android</mark>,
   <mark>SASS</mark>,
   <mark>git</mark> and
   <mark>AWS</mark> services.
@@ -54,14 +55,13 @@ about_content: |
 more_title: When I'm Not Programming
 more_content: |
   When I'm not sat at my desk I am very active and spend most of my time outdoors. I do a lot a sports such as
-  mountain biking, road cycling, kitesuring and landboarding as well as trying to make time for things like
-  rock climbing and playing some rugby. Since my time at Uni I have become a very keen Kitesurfer and freestyle
+  mountain biking, road cycling, kitesuring and horse riding as well as trying to make time for things like
+  rock climbing and playing some rugby. Since my time at university I have become a very keen Kitesurfer and freestyle
   Landboarder. In 2014 I competed and won the amateur landboard British powerkite tour.
 
   I'm interested in photography and videography as I like to be creative, this is mainly through sport but
-  I enjoy landscape and abstract photography too. I like to showcase my work on my website and instagram if
-  you would like to take a look -
-  [jwgmedia.co.uk](http://jwgmedia.co.uk/) / [jameswgrant](https://www.instagram.com/jameswgrant/).
+  I enjoy landscape and abstract photography too. I like to showcase my work on instagram if
+  you would like to take a look - [jameswgrant](https://www.instagram.com/jameswgrant/).
 
   Finally during the rest of my free time you will either find me working on my bikes, rock climbing at one of
   Bristol's indoor climbing centres or down the Rec supporting Bath Rugby.
