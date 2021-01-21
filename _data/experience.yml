@@ -1,14 +1,19 @@
-- company: Royal Bank of Scotland
+- company: NatWest
   dates: August 2017 - Present
   job_title: Software Engineer
   description: |
-    I am currently working at The Royal Bank of Scotland as a full stack engineer focusing mostly on the front end of a corporate banking product.
+    I am currently working at NatWest as a front end engineer focusing mostly on a corporate banking product called Bankline.
     Working as part of a scrum team consiting of 5 developers, 2 testers and a PO/BA I have the oportunity to help drive the team forwards and
     work with the PO defining what we are building.
 
     I spend most of my time working on a specifc area of a large application that our team take ownership over. The front end is a <mark>React</mark> app
     that talks to an API built using a collection of <mark>Java</mark> microservices. I have spent time working in multiple parts of the stack including
     helping to define our front end architecure to follow best practices to implementing PDF and CSV export in a microservice.
+    
+    Last year I took the lead on rebuilding the login journey to our application. I worked with the architects and designers to create something that would
+    be fit for purpose and be easy to maintain for years to come. I then built this to a high standard which lead to a seamless switch over from the previous
+    system with no issues. More recently I have acted as a consultant to external teams and application architects to advise on how we should be building new
+    functionality within our application. I have also built reusable components to the same standards as opensource libraries which have been used by different teams across the bank.
 
     I enjoy learning about all areas of our application which allows me to be a go-to person for knowledge and queries within my team and the other teams
     in the office. I am always looking to suggest improvements and challenge what and how we are working to make sure we are delivering the best service
@@ -32,7 +37,7 @@
     communicating with the client, performing deployments and providing support.
 
     Towards the end of my time at Simitive my role involved assisting with the company's devOps, this included managing
-    our <mark>AWS</mark> infrastructure as well as deploying and migrating sites. I also spend time configuring and maintaining
+    our <mark>AWS</mark> infrastructure as well as deploying and migrating sites. I also spent time configuring and maintaining
     our clients SSO, this mostly involves configuring new clients who are using <mark>AD FS</mark>, <mark>Shibboleth</mark> and
     <mark>CAS</mark> but also maintaining our software's SSO functionality.
 
