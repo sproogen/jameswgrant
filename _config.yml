@@ -2,7 +2,7 @@
 repository: sproogen/jameswgrant
 favicon: images/favicon.ico
 
-version: 1
+version: 2
 
 # Personal info
 name: James Grant
@@ -19,52 +19,203 @@ instagram_username: jameswgrant
 linkedin_username: jameswgrant
 # pinterest_username:
 # youtube_username:
-# googleplus_username:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/jg.jpg
+about_profile_image: images/jg2.jpg
 about_content: |
-  Hi, my name is James Grant, I'm a full stack web developer with over 8 years experience currently specialising in React development.
-  I am currently working for NatWest as a frontend software engineer on their comercial banking platform, Bankline.
+  Hi, my name is James Grant, I'm a full stack web developer with over 9 years experience currently specialising in React development.
+  I am currently working for NatWest as a Lead Frontend Software Engineer on their comercial banking platform, Bankline.
 
   I enjoy making clean and interactive UI that is quick and easy to use whilst also giving users an enjoyable experience.
+  I like working creating clean and efficient developer experiences to allow developers to focus on code quality and the end user experience.
   I have worked with a range of different languages and frameworks and I am always looking for opportunities to work
   with something new. The things that I currently have the most experience working with are:
   <mark>ES6 Javascript</mark>,
   <mark>React &amp; Redux</mark>,
   <mark>Node.js</mark>,
   <mark>Java</mark>,
-  <mark>PHP</mark>,
   <mark>MySQL</mark>,
-  <mark>Symfony</mark>,
   <mark>SASS</mark>,
   <mark>git</mark> and
-  <mark>AWS</mark> services.
+  <mark>AWS</mark>.
 
-# Projects Section
-# projects_title: Projects
+content:
+  - title: Projects # Title for the section
+    layout: list
+    content:
+      - layout: top-middle
+        border: weak
+        title: Mordern Resume Theme
+        link: sproogen.github.io/modern-resume-theme
+        additional_links:
+          - title: sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: https://github.com/sproogen/modern-resume-theme
+        quote: >
+          A modern simple static resume template and theme. Powered by Jekyll and GitHub pages.
+        description: |
+          This is a <mark>Jekyll</mark> theme that I have recently created, in fact it is what this resume has been built with.
+          I decided I wanted to learn how to create a fully open source project and thought that this would be the perfect project to do this with.
+          It has allowed me to share something I have created in a way that will be helpful for lots of people while also learning from this myself.
+      - layout: top-middle
+        title: itsgoingto.be
+        link: www.itsgoingto.be
+        additional_links:
+          - title: sproogen/itsgoingto.be
+            icon: fab fa-github
+            url: https://github.com/sproogen/itsgoingto.be
+        quote: >
+          itsgoingto.be is a simple voting site where a user can ask a question or topic top put to a vote. This question
+          can then be shared with their friends/colleagues to vote on things like 'Where should we go for lunch?'.
+        description: |
+          The API for this site has been build using <mark>Node.js</mark> while the front end is a <mark>React</mark>/<mark>Redux</mark> app.
+          I have used <mark>Docker</mark> to set up a development environment and <mark>Heroku</mark> to deploy and host the site. I have
+          a suite of unit and API tests for the backend and unit tests for the front end.
 
-# Experience Section
-# experience_title: Experience
+          I have been using this project as a way to increase many of my skills and also learn new things, most recently sockets and Node.JS. I have particually
+          enjoyed managing my own project and designing my own architecture and implementing this to a high standard.
 
-# Education Section
-# educaton_title: Education
+          Feel free to check out the whole project on GitHub to get a feel for how I work [here](https://github.com/sproogen/itsgoingto.be).
 
-# More Section
-more_title: When I'm Not Programming
-more_content: |
-  When I'm not sat at my desk I am very active and spend most of my time outdoors. I do a lot a sports such as
-  mountain biking, road cycling, kitesuring and horse riding as well as trying to make time for things like
-  rock climbing and playing some rugby. Since my time at university I have become a very keen Kitesurfer and freestyle
-  Landboarder. In 2014 I competed and won the amateur landboard British powerkite tour.
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: NatWest
+        sub_title: Lead Frontend Software Engineer
+        caption: July 2021 - Present
+        description: |
+          Taken accountability for the frontend of the payments product area within a commercial banking platform, becoming a go to for knowledge and technical decisions.
 
-  I'm interested in photography and videography as I like to be creative, this is mainly through sport but
-  I enjoy landscape and abstract photography too. I like to showcase my work on instagram if
-  you would like to take a look - [jameswgrant](https://www.instagram.com/jameswgrant/).
+          Currently developing a new frontend architecture transforming the current monolithic frontend application into a scalable modular application with micro-frontends
+          using Webpack Module Federation. This has been a great experience to develop a new workflow for developers to develop and release code and have input in all aspects
+          of the development workflow.
 
-  Finally during the rest of my free time you will either find me working on my bikes, rock climbing at one of
-  Bristol's indoor climbing centres or down the Rec supporting Bath Rugby.
+          I have also been a key part of our frontend interview provess, I have worked to improve our interview process including writing new code tests, whilst interviewing
+          candidates across multiple countries.
+
+      - layout: left
+        border: weak
+        title: NatWest
+        sub_title: Frontend Software Engineer
+        caption: August 2017 - July 2021
+        description: |
+          Working at NatWest as a front end engineer focusing mostly on a corporate banking product called Bankline.
+          Working as part of a scrum team consiting of 5 developers, 2 testers and a PO/BA I have the oportunity to help drive the team forwards and
+          work with the PO defining what we are building.
+
+          I spend most of my time working on a specifc area of a large application that our team take ownership over. The front end is a <mark>React</mark> app
+          that talks to an API built using a collection of <mark>Java</mark> microservices. I have spent time working in multiple parts of the stack including
+          helping to define our front end architecure to follow best practices to implementing PDF and CSV export in a microservice.
+
+          Last year I took the lead on rebuilding the login journey to our application. I worked with the architects and designers to create something that would
+          be fit for purpose and be easy to maintain for years to come. I then built this to a high standard which lead to a seamless switch over from the previous
+          system with no issues. More recently I have acted as a consultant to external teams and application architects to advise on how we should be building new
+          functionality within our application. I have also built reusable components to the same standards as opensource libraries which have been used by different teams across the bank.
+
+          I enjoy learning about all areas of our application which allows me to be a go-to person for knowledge and queries within my team and the other teams
+          in the office. I am always looking to suggest improvements and challenge what and how we are working to make sure we are delivering the best service
+          to the customers while also developing to the highest standards.
+
+      - layout: left
+        border: weak
+        title: Simitive
+        sub_title: Full Stack Developer
+        link: www.simitive.com
+        caption: November 2015 - August 2017
+        description: |
+          During my time at Simitive I worked as part of an agile team building our own in house web based software and
+          also a large scale website for an international client. I gained experience working with a continuous integration
+          workflow using tools such as <mark>Jenkins</mark> and working with Amazon Web Services for deployments. We built most
+          of our software using <mark>Symfony</mark>, <mark>Backbone</mark>, <mark>Marionette</mark>, <mark>Vue</mark> and <mark>Vuex</mark>.
+
+          For 6 months I was working on delivering a standalone web product for an international client that services over
+          600,000 users. This has been built from the ground up using <mark>Symfony</mark> to provide a backend API and
+          <mark>Backbone</mark> for the front end. I also gained a lot of experience with <mark>Elasticsearch</mark> to provide
+          search functionality of millions of entities to the front end. During the project I spent time out of hours
+          communicating with the client, performing deployments and providing support.
+
+          Towards the end of my time at Simitive my role involved assisting with the company's devOps, this included managing
+          our <mark>AWS</mark> infrastructure as well as deploying and migrating sites. I also spent time configuring and maintaining
+          our clients SSO, this mostly involves configuring new clients who are using <mark>AD FS</mark>, <mark>Shibboleth</mark> and
+          <mark>CAS</mark> but also maintaining our software's SSO functionality.
+
+      - layout: left
+        border: weak
+        title: Freelance
+        sub_title: Android Development
+        caption: September 2016 - October 2016
+        description: |
+          I was asked to update an existing Android app to the latest version of Android and to fix any issues caused by
+          this as well as a few other existing issues. This project had a very tight time scale and I was able to complete
+          it in very good time while providing regular updates to the client.
+
+      - layout: left
+        border: weak
+        title: Nudge Digital
+        sub_title: Full Stack Developer
+        link: www.nudgedigital.co.uk
+        caption: August 2014 - November 2015
+        description: |
+          While working at Nudge I was able to work on a large number of projects ranging from small Drupal sites to large
+          enterprise level applications. I enjoy being able to work with clients to understand and surpass their expectations.
+          At Nudge I was also given the oppertunity to work with all of my core skills and to gain new skills in things
+          such as <mark>Symfony</mark>, <mark>Angular</mark> and <mark>Gulp</mark>. I also worked on a number of <mark>iOS</mark> and
+          <mark>Android</mark> applications.
+
+          During my time at Nudge I was able to help the lead developer with the writing of Technical Specifications and
+          also Project Requirements. I feel this is a useful skill to have as it helps me to become an even more well-rounded
+          developer.
+
+          During the summer I had the opportunity to head to Accra, Ghana and work with the team out there. This was a
+          great opportunity to learn more about the industry in another country but also to allow me to lead their
+          team for a few weeks and gain lots of experience of remote teams.
+
+      - layout: left
+        title: GWS Media
+        sub_title: Web Developer
+        link: www.gwsmedia.com
+        caption: June 2012 - August 2014
+        description: |
+          I started working for GWS Media part time during my third year at University and continued full time once I had
+          graduated. It was during this role that I learnt many of the fundamentals that I have been building on over
+          the past 3 years. Whilst at GWS I had the opportunity to work with:
+          <mark>Drupal</mark>, <mark>Magento</mark>, <mark>Bootstrap</mark>, <mark>Codeigniter</mark>, <mark>Android</mark> and <mark>iOS</mark>.
+
+          I feel like having the opportunity to use a large range of different things early on in my career has given me
+          the drive to always want to try new tools and frameworks.
+
+  - title: Education
+    layout: list
+    content:
+      - title: Bristol University
+        sub_title: BSc Computer Science
+        caption: 2010 - 2013
+        description: |
+          During my degree at Bristol University I learnt lots of key skills such as team work and project management. Although
+          we mainly focused on software development and the principles of programming I use a lot of these skills to
+          my advantage in my day to day work.
+
+          While at Bristol Uni I spent a lot of my free time with the Kitesurfing society. I spent 3 years on the committee
+          as a secretary, trip rep and then media and promotions manager. During this time I took on roles from organising
+          transport and designing posters to organising a trip to Portugal for over 30 students.
+
+  - title: When I'm Not Programming
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      When I'm not sat at my desk I am very active and spend most of my time outdoors. I do a lot a sports such as
+      mountain biking, road cycling, kitesuring and horse riding as well as trying to make time for things like
+      rock climbing and playing some rugby. I currently have 2 horses and find this is a great way to get out of the house
+      and taking my mind of things while learing to showjump.
+
+      I'm interested in photography and videography as I like to be creative, this is mainly through sport but
+      I enjoy landscape and abstract photography too. I like to showcase my work on instagram if
+      you would like to take a look - [jameswgrant](https://www.instagram.com/jameswgrant/).
+
+      Finally during the rest of my free time you will either find me working on my bikes, rock climbing at one of
+      Bristol's indoor climbing centres or down 'The Rec' supporting Bath Rugby.
 
 # Footer
 footer_show_references: false
