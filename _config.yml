@@ -46,7 +46,7 @@ content:
     content:
       - layout: top-middle
         border: weak
-        title: Mordern Resume Theme
+        title: Modern Resume Theme
         link: sproogen.github.io/modern-resume-theme
         additional_links:
           - title: sproogen/modern-resume-theme
